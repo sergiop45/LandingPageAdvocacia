@@ -108,10 +108,10 @@ font-weight: bold;
 #footerAtuacao {
     display: flex;
     justify-content: space-between;
-    margin: 50px 20px;
+    margin: 50px auto;
 }
 #footerAtuacao p {
-    width: 450px;
+    width: 70%;
     text-align: left;
 }
 #footerAtuacao a {
@@ -170,7 +170,7 @@ font-weight: bold;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    margin-left: 50px;
+    padding-left: 50px;
     font-size: 15px;
 }
 .secaoSocio img {
@@ -189,7 +189,7 @@ font-weight: bold;
 .secaoSocio2 img {
     height: 300px;
     width: 40%;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 /* End Secao Socios */
