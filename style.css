@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url("./lady-justice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0 10px;
+    color: #DCDCDC	;
+}
+
+nav {
+    float: right;
+    padding: 10px;
+    
+}
+
+#btnMenu {
+    color: gray;
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    float: right;
+    display: none;
+}
+#listMenu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    float: right;
+}
+#listMenu li a {
+    text-decoration: none;
+    color:   black;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+#listMenu li a:hover {
+font-weight: bold;
+}
+
+#logoEscrita {
+    text-align: start;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    
+}
+#logoEscrita p{
+    font-size: 12px;
+    margin-bottom: 200px;
+}
+
+#logoEscrita h3{
+    font-size: 28px;
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+/* Seção - Areas de atuação */
+
+.atuacao {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.atuacao div img{
+    height: 220px; 
+    cursor: pointer;
+}
+
+.atuacao div img:hover {
+    height: 230px;
+    margin-bottom: -10px;
+}
+
+
+
+.atuacao h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.atuacao div {
+    display: flex;
+    justify-content: space-between;
+}
+.imgAtuacao {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.imgAtuacao p {
+    position: absolute;
+    margin:0 auto;
+    top: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+
+#footerAtuacao {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+#footerAtuacao p {
+    width: 450px;
+    text-align: left;
+}
+#footerAtuacao a {
+    color: black;
+    text-decoration: none;
+}
+#footerAtuacao a:hover {
+    text-decoration: underline;
+}
+
+/* quem somos*/
+
+#quemSomos {
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#quemSomos img {
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+#quemSomos button {
+    background:none;
+    color: white;
+    border-color: white;
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#quemSomos button:hover {
+    background:white;
+    color: black;
+    border-color: white;
+    
+}
+
+/*socios*/
+
+#socios {
+    padding: 30px;
+    padding-top: 80px;
+    color: #333333;
+    background-color: #DCDCDC;
+}
+#socios h3 {
+
+    color: #566bff;
+    margin-bottom: 20px;
+}
+
+.secaoSocio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-size: 15px;
+}
+.secaoSocio img {
+    height: 300px;
+    margin-right: 20px;
+}
+
+.secaoSocio2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+.secaoSocio2 img {
+    height: 300px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+body{
+    height: 200vh;
+}
+
+/* End Secao Socios */
+
+/* Blog */
+
+.blog {
+    text-align: center;
+    margin: 50px 10px;
+}
+
+
+.blog h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.blog div {
+    display: flex;
+    justify-content: space-between;
+}
+.imgBlog {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.imgBlog img{
+    height: 220px; 
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.imgBlog img:hover {
+    height: 230px;
+    width: 310px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.imgBlog p {
+    text-align: start;
+    font-weight: bold;
+    color: #333333;
+    font-size: 13px;
+}
+.imgBlog a {
+    text-align: start;
+    color: #566bff;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.imgBlog a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* ende blog */
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#redes {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#redes a {
+    margin-right: 10px;
+    color: white;
+    font-size: 30px;
+    
+}
+#redes a:hover {
+    color: gray;
+    font-size: 30px;
+}
+
+/* End Footer */
+
+@media (max-width: 700px) {
+    
+    .blog div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgBlog {
+        margin-top: 15px;
+    }
+    .imgBlog img {
+        height: 300px;
+    }
+    .imgBlog img:hover {
+        height: 320px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .atuacao div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgAtuacao {
+        margin-top: 20px;
+    }
+    .imgAtuacao p {
+        left: 20%;
+    }
+    #footerAtuacao {
+        flex-direction: column;
+        text-align: center;
+        margin: 50px 0;
+        align-items: center;
+    }
+    #footerAtuacao a {
+        margin-top: 70px;
+    }
+    #footerAtuacao p {
+        text-align: center;
+    }
+
+    #quemSomos {
+        flex-direction: column;
+        text-align: start;
+    }
+    #quemSomos img {
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0;
+    }
+    
+    .secaoSocio  {
+        margin:0;
+    }
+    .secaoSocio2  {
+        margin:0;
+        margin-top: 80px;
+    }
+
+    .atuacao div img{
+        height: 320px; 
+    }
+    .atuacao div img:hover{
+        height: 330px; 
+    }
+    
+    nav {
+        position: relative;
+    }
+    #btnMenu {
+        display: flex;
+        margin-right: 22px;
+        color: black;
+    }
+    #listMenu {
+        align-items: center;
+        background-color: black;
+        color: #333333;
+        position: absolute;
+        top: 70px;
+        right: 2px;
+        flex-direction: column;
+        border-radius: 10px;
+        display: none;
+    }
+    #listMenu li {
+        margin-top: 5px;
+        padding: 6px;
+        margin-left: 2px;
+    }
+    #listMenu li a {
+        color: #DCDCDC;
+    }
+    #listMenu li a:hover {
+        text-decoration: underline;
+    }
+    #logoEscrita h3{
+        width: 20%;
+        
+    }
+    
+}
